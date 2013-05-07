@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26191559173779DB0073863E /* ZYFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = 26191558173779DB0073863E /* ZYFolders.m */; };
+		2619155C17377E7D0073863E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619155B17377E7D0073863E /* ViewController.m */; };
+		2619155F173782FB0073863E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2619155D173782FB0073863E /* bg.png */; };
+		26191560173782FB0073863E /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2619155E173782FB0073863E /* bg@2x.png */; };
+		26191569173784AC0073863E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191561173784AC0073863E /* 1.png */; };
+		2619156A173784AC0073863E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191562173784AC0073863E /* 2.png */; };
+		2619156B173784AC0073863E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191563173784AC0073863E /* 3.png */; };
+		2619156C173784AC0073863E /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191564173784AC0073863E /* 4.png */; };
+		2619156D173784AC0073863E /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191565173784AC0073863E /* 5.png */; };
+		2619156E173784AC0073863E /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191566173784AC0073863E /* 6.png */; };
+		2619156F173784AC0073863E /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191567173784AC0073863E /* 7.png */; };
+		26191570173784AC0073863E /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 26191568173784AC0073863E /* 8.png */; };
+		2619157617379BB50073863E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2619157517379BB50073863E /* QuartzCore.framework */; };
+		264BD9991726353B005E9FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BD9981726353B005E9FF5 /* UIKit.framework */; };
+		264BD99B1726353B005E9FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BD99A1726353B005E9FF5 /* Foundation.framework */; };
+		264BD99D1726353B005E9FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BD99C1726353B005E9FF5 /* CoreGraphics.framework */; };
+		264BD99F1726353B005E9FF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BD99E1726353B005E9FF5 /* CoreData.framework */; };
+		264BD9A51726353B005E9FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264BD9A31726353B005E9FF5 /* InfoPlist.strings */; };
+		264BD9A71726353B005E9FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264BD9A61726353B005E9FF5 /* main.m */; };
+		264BD9AB1726353B005E9FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264BD9AA1726353B005E9FF5 /* AppDelegate.m */; };
+		264BD9AD1726353B005E9FF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BD9AC1726353B005E9FF5 /* Default.png */; };
+		264BD9AF1726353B005E9FF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BD9AE1726353B005E9FF5 /* Default@2x.png */; };
+		264BD9B11726353B005E9FF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BD9B01726353B005E9FF5 /* Default-568h@2x.png */; };
+		264BD9B41726353B005E9FF5 /* ZYFolders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 264BD9B21726353B005E9FF5 /* ZYFolders.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26191557173779DB0073863E /* ZYFolders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFolders.h; sourceTree = "<group>"; };
+		26191558173779DB0073863E /* ZYFolders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFolders.m; sourceTree = "<group>"; };
+		2619155A17377E7D0073863E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2619155B17377E7D0073863E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2619155D173782FB0073863E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		2619155E173782FB0073863E /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		26191561173784AC0073863E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		26191562173784AC0073863E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		26191563173784AC0073863E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		26191564173784AC0073863E /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		26191565173784AC0073863E /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		26191566173784AC0073863E /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		26191567173784AC0073863E /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		26191568173784AC0073863E /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2619157517379BB50073863E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		264BD9951726353B005E9FF5 /* ZYFolders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYFolders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264BD9981726353B005E9FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		264BD99A1726353B005E9FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		264BD99C1726353B005E9FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		264BD99E1726353B005E9FF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		264BD9A21726353B005E9FF5 /* ZYFolders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZYFolders-Info.plist"; sourceTree = "<group>"; };
+		264BD9A41726353B005E9FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		264BD9A61726353B005E9FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264BD9A81726353B005E9FF5 /* ZYFolders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYFolders-Prefix.pch"; sourceTree = "<group>"; };
+		264BD9A91726353B005E9FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264BD9AA1726353B005E9FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264BD9AC1726353B005E9FF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		264BD9AE1726353B005E9FF5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		264BD9B01726353B005E9FF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		264BD9B31726353B005E9FF5 /* ZYFolders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYFolders.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264BD9921726353B005E9FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2619157617379BB50073863E /* QuartzCore.framework in Frameworks */,
+				264BD9991726353B005E9FF5 /* UIKit.framework in Frameworks */,
+				264BD99B1726353B005E9FF5 /* Foundation.framework in Frameworks */,
+				264BD99D1726353B005E9FF5 /* CoreGraphics.framework in Frameworks */,
+				264BD99F1726353B005E9FF5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26191571173784B10073863E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				26191561173784AC0073863E /* 1.png */,
+				26191562173784AC0073863E /* 2.png */,
+				26191563173784AC0073863E /* 3.png */,
+				26191564173784AC0073863E /* 4.png */,
+				26191565173784AC0073863E /* 5.png */,
+				26191566173784AC0073863E /* 6.png */,
+				26191567173784AC0073863E /* 7.png */,
+				26191568173784AC0073863E /* 8.png */,
+				2619155D173782FB0073863E /* bg.png */,
+				2619155E173782FB0073863E /* bg@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		264BD98C1726353B005E9FF5 = {
+			isa = PBXGroup;
+			children = (
+				2619157517379BB50073863E /* QuartzCore.framework */,
+				264BD9A01726353B005E9FF5 /* ZYFolders */,
+				264BD9971726353B005E9FF5 /* Frameworks */,
+				264BD9961726353B005E9FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264BD9961726353B005E9FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264BD9951726353B005E9FF5 /* ZYFolders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264BD9971726353B005E9FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				264BD9981726353B005E9FF5 /* UIKit.framework */,
+				264BD99A1726353B005E9FF5 /* Foundation.framework */,
+				264BD99C1726353B005E9FF5 /* CoreGraphics.framework */,
+				264BD99E1726353B005E9FF5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		264BD9A01726353B005E9FF5 /* ZYFolders */ = {
+			isa = PBXGroup;
+			children = (
+				26191571173784B10073863E /* images */,
+				26191557173779DB0073863E /* ZYFolders.h */,
+				26191558173779DB0073863E /* ZYFolders.m */,
+				2619155A17377E7D0073863E /* ViewController.h */,
+				2619155B17377E7D0073863E /* ViewController.m */,
+				264BD9A91726353B005E9FF5 /* AppDelegate.h */,
+				264BD9AA1726353B005E9FF5 /* AppDelegate.m */,
+				264BD9B21726353B005E9FF5 /* ZYFolders.xcdatamodeld */,
+				264BD9A11726353B005E9FF5 /* Supporting Files */,
+			);
+			path = ZYFolders;
+			sourceTree = "<group>";
+		};
+		264BD9A11726353B005E9FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264BD9A21726353B005E9FF5 /* ZYFolders-Info.plist */,
+				264BD9A31726353B005E9FF5 /* InfoPlist.strings */,
+				264BD9A61726353B005E9FF5 /* main.m */,
+				264BD9A81726353B005E9FF5 /* ZYFolders-Prefix.pch */,
+				264BD9AC1726353B005E9FF5 /* Default.png */,
+				264BD9AE1726353B005E9FF5 /* Default@2x.png */,
+				264BD9B01726353B005E9FF5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264BD9941726353B005E9FF5 /* ZYFolders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264BD9B71726353B005E9FF5 /* Build configuration list for PBXNativeTarget "ZYFolders" */;
+			buildPhases = (
+				264BD9911726353B005E9FF5 /* Sources */,
+				264BD9921726353B005E9FF5 /* Frameworks */,
+				264BD9931726353B005E9FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYFolders;
+			productName = ZYFolders;
+			productReference = 264BD9951726353B005E9FF5 /* ZYFolders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264BD98D1726353B005E9FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zhiyu;
+			};
+			buildConfigurationList = 264BD9901726353B005E9FF5 /* Build configuration list for PBXProject "ZYFolders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 264BD98C1726353B005E9FF5;
+			productRefGroup = 264BD9961726353B005E9FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264BD9941726353B005E9FF5 /* ZYFolders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264BD9931726353B005E9FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264BD9A51726353B005E9FF5 /* InfoPlist.strings in Resources */,
+				264BD9AD1726353B005E9FF5 /* Default.png in Resources */,
+				264BD9AF1726353B005E9FF5 /* Default@2x.png in Resources */,
+				264BD9B11726353B005E9FF5 /* Default-568h@2x.png in Resources */,
+				2619155F173782FB0073863E /* bg.png in Resources */,
+				26191560173782FB0073863E /* bg@2x.png in Resources */,
+				26191569173784AC0073863E /* 1.png in Resources */,
+				2619156A173784AC0073863E /* 2.png in Resources */,
+				2619156B173784AC0073863E /* 3.png in Resources */,
+				2619156C173784AC0073863E /* 4.png in Resources */,
+				2619156D173784AC0073863E /* 5.png in Resources */,
+				2619156E173784AC0073863E /* 6.png in Resources */,
+				2619156F173784AC0073863E /* 7.png in Resources */,
+				26191570173784AC0073863E /* 8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264BD9911726353B005E9FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264BD9A71726353B005E9FF5 /* main.m in Sources */,
+				264BD9AB1726353B005E9FF5 /* AppDelegate.m in Sources */,
+				264BD9B41726353B005E9FF5 /* ZYFolders.xcdatamodeld in Sources */,
+				26191559173779DB0073863E /* ZYFolders.m in Sources */,
+				2619155C17377E7D0073863E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		264BD9A31726353B005E9FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264BD9A41726353B005E9FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264BD9B51726353B005E9FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		264BD9B61726353B005E9FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264BD9B81726353B005E9FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYFolders/ZYFolders-Prefix.pch";
+				INFOPLIST_FILE = "ZYFolders/ZYFolders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		264BD9B91726353B005E9FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYFolders/ZYFolders-Prefix.pch";
+				INFOPLIST_FILE = "ZYFolders/ZYFolders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264BD9901726353B005E9FF5 /* Build configuration list for PBXProject "ZYFolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264BD9B51726353B005E9FF5 /* Debug */,
+				264BD9B61726353B005E9FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264BD9B71726353B005E9FF5 /* Build configuration list for PBXNativeTarget "ZYFolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264BD9B81726353B005E9FF5 /* Debug */,
+				264BD9B91726353B005E9FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		264BD9B21726353B005E9FF5 /* ZYFolders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				264BD9B31726353B005E9FF5 /* ZYFolders.xcdatamodel */,
+			);
+			currentVersion = 264BD9B31726353B005E9FF5 /* ZYFolders.xcdatamodel */;
+			path = ZYFolders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 264BD98D1726353B005E9FF5 /* Project object */;
+}
