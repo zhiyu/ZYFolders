@@ -3,8 +3,7 @@
 Something like SpringBoard's folders.
 
 ###Screenshots
-![](https://github.com/zhiyu/ZYFolders/raw/master/screenshots/1.png)
-![](https://github.com/zhiyu/ZYFolders/raw/master/screenshots/2.png)
+![](https://github.com/zhiyu/ZYFolders/raw/master/screenshots/screenshot.png)
 
 ###The MIT License
 Copyright ©2012 zhiyu zheng all rights reserved.
